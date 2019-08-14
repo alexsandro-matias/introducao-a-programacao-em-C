@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1457467018 source:e:\ifpe\introducaoaprogramacao\programas\comprimento.c
+	<stdio.h>
+	<stdlib.h>
+
+1458588744 source:e:\ifpe\introducaoaprogramacao\programas\main.c
+	<stdio.h>
+	<stdlib.h>
+

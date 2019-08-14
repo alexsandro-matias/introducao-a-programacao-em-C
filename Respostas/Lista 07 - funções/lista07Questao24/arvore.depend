@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1460898888 source:c:\users\pb7p\desktop\arvore\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1472060623 source:c:\users\pb7p\desktop\lista04questao20\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1472060623 
+
+1472061111 source:/home/wellington/Desktop/lista04Questao20/main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

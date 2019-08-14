@@ -1,0 +1,79 @@
+import java.math.*;
+import java.lang.*;
+import java.util.*;
+
+public class parOuImpar{
+
+	public static void main(String[] args) {
+
+	int numero1, numero2, numero3 = 0, maior = 0, menor = 0, medio = 0;
+	
+	System.out.println("digite o 1º número:");
+	Scanner a = new Scanner (System.in);
+	numero1=a.nextInt();
+	
+	System.out.println("digite o 2º número:");
+	Scanner b = new Scanner (System.in);
+	numero2=b.nextInt();
+	
+	System.out.println("digite o 3º número:");
+	Scanner c = new Scanner (System.in);
+	numero3=c.nextInt();
+	
+	if( (numero1 != numero2) && (numero1 != numero3) && (numero2 != numero3)) {
+	
+	
+	if ((numero1 > numero2) && (numero1 > numero3)) {
+	maior = numero1;	
+	if (numero2 > numero3) {
+	menor = numero3;
+	medio = numero2;}
+	else {
+	menor = numero2;
+	medio = numero3;}	
+	}
+	
+	if ((numero2 > numero1) && (numero2 > numero3)) {
+		maior = numero2;	
+		if (numero1 > numero3) {
+		menor = numero3;
+		medio = numero1;}
+		else {
+		menor = numero1;
+		medio = numero3;}	
+		}
+	
+	if ((numero3 > numero1) && (numero3 > numero2)) {
+		maior = numero3;	
+		if (numero1 > numero2) {
+		menor = numero2;
+		medio = numero1;}
+		else {
+		menor = numero1;
+		medio = numero2;}	
+		}
+	
+			
+	System.out.println("maior:" +maior);
+	System.out.println("médio:" +medio);
+	System.out.println("menor:" +menor);
+
+																}
+	
+	
+	if ((numero1 == numero2) && (numero1 == numero3)) System.out.println("Todos são iguais");
+	
+	if ((numero1 == numero2) && (numero1 > numero3)) System.out.println("o Primeiro e Segundo números são iguais a " +numero1+ " e maiores que  " +numero3 );
+	
+	if ((numero1 == numero2) && (numero1 < numero3)) System.out.println("o Primeiro e Segundo números são iguais a " +numero1+ " e menores que  " +numero3 );
+	
+	if ((numero1 == numero3) && (numero1 < numero2)) System.out.println("o Primeiro e o terceiro números são iguais a " +numero1+ " e menores que  " +numero2 );
+	
+	if ((numero1 == numero3) && (numero1 > numero2)) System.out.println("o Primeiro e o terceiro números são iguais a " +numero1+ " e maiores que  " +numero2 );
+	
+	if ((numero2 == numero3) && (numero2 > numero1)) System.out.println("o segundo e o terceiro números são iguais a " +numero2+ " e maiores que  " +numero1 );
+	
+	if ((numero3 == numero2) && (numero2 < numero1)) System.out.println("o Segundo e terceiro números são iguais a " +numero3+ " e menores que  " +numero1 );
+	
+	}
+						}

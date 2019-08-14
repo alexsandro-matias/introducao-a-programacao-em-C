@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1504555577 source:/home/matias/listasDeExerciciosIFPE/lista04Questao12/main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

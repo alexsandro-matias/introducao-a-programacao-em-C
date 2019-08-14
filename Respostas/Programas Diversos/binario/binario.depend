@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1478395613 source:/home/matias/binario/main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1496966708 source:/home/wellington/lista01Questao51/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+

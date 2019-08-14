@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1477519331 source:/home/matias/Área de Trabalho/lista03Questao33/main.c
+	<stdio.h>
+	<stdlib.h>
+

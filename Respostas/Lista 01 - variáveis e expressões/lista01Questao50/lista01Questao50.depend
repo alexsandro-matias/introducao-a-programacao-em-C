@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1497110206 source:/media/matias/Arquivos/lista01Questao50/main.c
+	<stdio.h>
+	<stdlib.h>
+

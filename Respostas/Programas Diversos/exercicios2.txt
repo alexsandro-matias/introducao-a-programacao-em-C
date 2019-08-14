@@ -1,0 +1,22 @@
+﻿Mini-avaliação IP do dia 04/03/16
+Esta mini-avaliação deve ser realizada em dupla e preenchida on-line até as 22 horas do dia 04/03/16.
+Nome do 1º aluno
+
+Nome do 2º aluno
+
+1) Descreva o que é linguagem de máquina, linguagem de montagem assembly e seu contexto de aplicação.
+É a linguagem entendida apenas pelo computador composta por um arranjo de números binários. 
+Assembly é talvez a linguagem de alto nível mais próxima à de baixo nível, ou seja, quase tudo que pode ser feito na máquina, pode ser feito em assembly. É emmpregada básicamente para como microprocessadores e microcontroladores.
+
+
+
+
+2) Pesquise e descreva o conceito de arquitetura de computadores.
+É forma que o hardware funciona na parte interna do computador. Abrage a maneira que o computador é manipula, coleta, processa e exibe resultados de suas informações, de forma sistemática e com diversos propósitos.
+
+
+3) Pesquise e descreva o conceito de organização de computadores.
+Já na organização é o estudo dos componentes físicos que compõem o
+computador, ou seja, cada componente visto isolado separado do sistema e sua relação com outros componentes
+
+abrange 
