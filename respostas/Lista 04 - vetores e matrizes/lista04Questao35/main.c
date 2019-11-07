@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#define 5 5
+#define TAMANHO_VETOR 5
 
 
 /*
@@ -15,24 +15,23 @@ construidos anteriormente.
 Dica: some as posicoes correspondentes. Se a soma ultrapassar 10, subtraia 10 do
 resultado e some 1 a proxima posicao.
 
-
 */
 
 
 int main()
 {
-    const int;
 
-    int i , primeiro[5] , segundo[5] , soma[5] , a , b ;
+    int i , primeiro[TAMANHO_VETOR] , segundo[TAMANHO_VETOR] , soma[TAMANHO_VETOR] , a , b ;
 
 
 
     // Inicializando os vetores com zero
 
-    for (i = 0 ; i < 5 ; i++){
-    primeiro[i] = 0;
-    segundo[i] = 0;
-    soma[i] = 0;
+    for (i = 0 ; i < TAMANHO_VETOR ; i++)
+    {
+        primeiro[i] = 0;
+        segundo[i] = 0;
+        soma[i] = 0;
 
     }
 
@@ -49,12 +48,12 @@ int main()
     // Jogando os valores para dentro de cada casa do vetor
 
 
-    for(i = 4 ; a > 0 ; i--){
+    for(i = 4 ; a > 0 ; i--)
+    {
 
-    primeiro[i] = a%10;
+        primeiro[i] = a%10;
 
-    a /= 10 ;
-
+        a /= 10 ;
 
     }
 
@@ -71,7 +70,7 @@ int main()
     printf("\n");
 
 
-    for (i = 0 ; i < 5 ; i++){
+    for (i = 0 ; i < TAMANHO_VETOR ; i++){
     printf("%d " , primeiro[i]);
 
     }
@@ -79,7 +78,7 @@ int main()
     printf("\n");
 
 
-    for (i = 0 ; i < 5 ; i++){
+    for (i = 0 ; i < TAMANHO_VETOR ; i++){
     printf("%d " , segundo[i]);
 
     }
@@ -110,9 +109,9 @@ int main()
 
     printf("\n");
     printf("------------------");
-    printf("\n");
+    printf("\n\n\n");
 
-    for (i = 0 ; i < 5 ; i++){
+    for (i = 0 ; i < TAMANHO_VETOR ; i++){
     printf("%d " , soma[i]);
 
     }
