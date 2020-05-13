@@ -2,35 +2,47 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <math.h>
- // JUROS FIXOS
-float poupanca(float juros,float tempo){
+
+
+// JUROS FIXOS
+
+float poupanca(float juros,float tempo)
+{
     float poupanca= pow((1+juros),tempo);
     return poupanca;
 }
-float rendaF(float lucro,float tributo,float inflacao){
+
+float rendaF(float lucro,float tributo,float inflacao)
+{
     float rendaF = (lucro-(tributo-lucro))-inflacao;
-        return rendaF;
+    return rendaF;
 }
-float rendaV(float juros,float tempo){
+
+float rendaV(float juros,float tempo)
+{
  float rendaV=pow((1+juros),tempo);
  return rendaV;
 }
-int main() {
+int main() 
+{
     setlocale(LC_ALL,"portuguese");
     int decisao;
     float dinheiro,tempo,Tp=0.05,Tv=0.15,i=0.0731,l=0.10,t=0.15,Total,Total1,P,P1,RF,RF1,RV,RV1;
- //P=POUPANÇA  RV=RENDA VARIAVEL  RF=RENDA FIXA
+     //P=POUPANÇA  RV=RENDA VARIAVEL  RF=RENDA FIXA
     printf("\tDigite o valor do deposito\n");
     scanf("%f",&dinheiro);
     printf("\tDigite o tempo em meses\n");
     scanf("%f",&tempo);
     printf("Você irá fazer depositos regulares (1-SIM  2- NAO)?\n");
     scanf("%d",&decisao);
-    if(decisao==1){
+
+    if(decisao==1)
+    {
      Total=(1 + 0.05)*((pow(1.05,tempo)-1)/0.05)*dinheiro;
      printf("O Valor total será %f reais\n",Total);
      printf("Em %2.f meses\n",tempo);
     }
+    
     else{
 
     P=poupanca(Tp,tempo);
