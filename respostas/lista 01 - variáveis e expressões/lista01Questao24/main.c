@@ -4,32 +4,28 @@
 
 /*
 
-Leia um valor de área em metros quadrados m² e apresente-o convertido em acres. A
-fórmula de convers˜ao é:
+Leia um valor de Ã¡rea em metros quadrados mÂ² e apresente-o convertido em acres.
+A fÃ³rmula de conversÃ£o:
 
 A = M * 0.000247
 
-M -> área em metros quadrados
-A -> área em acres.
+M -> Ã¡rea em metros quadrados
+A -> Ã¡rea em acres.
 
 */
 
-
-
 int main()
 {
-    setlocale(LC_ALL , "");
+    setlocale(LC_ALL, "");
 
-    float acres , metrosQuadrados;
+    float acres, metrosQuadrados;
 
-    printf("Informe um valor de área em metros quadrados (m²): ");
-    scanf("%f" , &metrosQuadrados);
+    printf("Informe um valor de Ã¡rea em metros quadrados (mÂ²): ");
+    scanf("%f", &metrosQuadrados);
 
     acres = metrosQuadrados * 0.000247;
 
-    printf("%.2f m² = %f acres" , metrosQuadrados , acres);
-
-
+    printf("%.2f mÂ² = %f acres\n", metrosQuadrados, acres);
 
     return 0;
 }
