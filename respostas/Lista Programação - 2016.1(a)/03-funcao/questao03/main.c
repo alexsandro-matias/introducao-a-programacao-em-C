@@ -14,7 +14,8 @@ acima de R$ 100,00).
     float pagamento(int opcao , float valor){   // Calcula primeiramente a média
     float parcela , quantidadeParcelas;
 
-    if(opcao == 1){
+    if(opcao == 1)
+    {
     parcela = valor * 0.9;
     return parcela;
     }
@@ -24,7 +25,8 @@ acima de R$ 100,00).
     return parcela;
     }
 
-    if(opcao == 3){
+    if(opcao == 3)
+    {
     printf("Digite a quantidade de parcelas:");
     scanf("%f" , &quantidadeParcelas);
 
