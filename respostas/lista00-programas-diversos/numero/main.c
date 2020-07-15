@@ -8,12 +8,12 @@ int main()
 
     for (i = 1000 ; contador < 5  ; i++ )
     {
-       if(i%11 == 5)
-       {
-       contador++;
+        if(i%11 == 5)
+        {
+            contador++;
 
-       }
-    printf("numero = %d\n" , i);
+        }
+        printf("numero = %d\n" , i);
 
     }
 

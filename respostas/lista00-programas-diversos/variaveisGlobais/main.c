@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   main.c
  * Author: matias
  *
@@ -13,9 +13,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-A função soma recebe dois inteiros e não retorna nenhum valor.
-Armazena o resultado da soma na variável global soma.
-*/
+//A função soma recebe dois inteiros e não retorna nenhum valor.
+//Armazena o resultado da soma na variável global soma.
+
 int soma(int a, int b) {
 int soma;
 soma = a + b;
@@ -31,11 +31,11 @@ subtracao = a – b;
 return subtracao;
 }
 int main(){
-    
-    int x , y ; 
+
+    int x , y ;
     scanf("%d" , &x);
     scanf("%d" , &y);
-    
+
     int somar("")
 
 printf("%d - %d = %d\n", a, b, subtracao); //Imprime a subtração

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594790635 source:c:\users\pb7p\git\introducao-a-programacao\respostas\lista07-funcoes\lista07questao04\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

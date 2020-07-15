@@ -1,11 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+
+Faça uma função que receba a data atual (dia, mês e ano em inteiro) e exiba-a na tela
+no formato textual por extenso.
+Exemplo: Data: 01/01/2000, Imprimir: 1 de janeiro de 2000.
+
+ *
+ */
+
 int dia(int x);//is it the way we write prototypes?
 int mes(int y);//is it the way we write prototypes?
 int ano(int z);//is it the way we write prototypes?
 
-int main(void) {
+int main(void)
+{
 	int d, m, a;
 	printf("Digite Dia, mês e ano (separados por ENTERS.)\n");
 	scanf("%d %d %d", &d, &m, &a);
@@ -22,7 +32,8 @@ int dia(x){
 	return d;
 }
 
-int mes(y){
+int mes(y)
+{
 	int m=y;
 	if (m==1)printf("jan");
 	else if (m==2)printf("feb ");
