@@ -10,11 +10,7 @@ Para uso dessa disciplina, usei o IDE Code::Blocks que achei mais apropriada em 
 
 <a id="ubuntu"></a>
 ## Instalação do IDE Code::Blocks no Ubuntu
-Como no próprio site do Code::Blocks, a instalação no Ubuntu deve ser feita através do PPA. Iremos fazer essa adição do repositório como o site sugere pelo comando:
-```
-sudo add-apt-repository ppa:damien-moore/codeblocks-stable -y
-```
-Uma vez adicionado o repositório, iremos agora atualizar a lista de repositórios:
+Inicialmente, iremos agora atualizar a lista de repositórios, assim como os pacotes do sistema operacional:
 ```
 sudo apt update && sudo apt upgrade -y
 ```
