@@ -9,7 +9,8 @@
 
 */
 
-void mudancaOrdem(int a , int b){
+void mudancaOrdem(int a , int b)
+{
     int aux ;
     aux = a;
     a = b;
@@ -34,12 +35,6 @@ int main()
     scanf("%d" , &numero2);
 
     mudancaOrdem(numero1 , numero2);
-
-
-
-
-
-
 
     return 0;
 }
