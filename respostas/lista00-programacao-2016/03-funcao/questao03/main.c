@@ -11,42 +11,46 @@ acima de R$ 100,00).
 
 */
 
-    float pagamento(int opcao , float valor){   // Calcula primeiramente a média
+float pagamento(int opcao , float valor)
+{
+    // Calcula primeiramente a média
     float parcela , quantidadeParcelas;
 
     if(opcao == 1)
     {
-    parcela = valor * 0.9;
-    return parcela;
+        parcela = valor * 0.9;
+        return parcela;
     }
 
-    if(opcao == 2){
-    parcela = valor / 2;
-    return parcela;
+    if(opcao == 2)
+    {
+        parcela = valor / 2;
+        return parcela;
     }
 
     if(opcao == 3)
     {
-    printf("Digite a quantidade de parcelas:");
-    scanf("%f" , &quantidadeParcelas);
+        printf("Digite a quantidade de parcelas:");
+        scanf("%f" , &quantidadeParcelas);
+    }
 
-    if (valor > 100){
-    parcela = valor / quantidadeParcelas * 1.03;
-    return parcela;
-                    }
+    if (valor > 100)
+    {
+        parcela = valor / quantidadeParcelas * 1.03;
+        return parcela;
+    }
 
     else
+    {
         return valor;
-
     }
 
-
-    return 0;
-    }
+}
 
 
-int main(){
 
+int main()
+{
     float valor , resultado;
     int opcao;
 
@@ -64,13 +68,7 @@ int main(){
 
     resultado = pagamento(opcao , valor);
 
-
-
     printf("O valor pago sera %.2f" , resultado);
 
-
-
-
-
     return 0;
-    }
+}
