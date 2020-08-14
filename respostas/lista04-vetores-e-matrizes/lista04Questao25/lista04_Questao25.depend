@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1597366196 source:c:\users\pb7p\git\introducaoaprogramacao\respostas\lista04-vetores-e-matrizes\lista04questao25\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
