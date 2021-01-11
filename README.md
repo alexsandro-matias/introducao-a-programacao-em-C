@@ -1,6 +1,6 @@
-# Introdução à Programação
-Disciplina do Instituto Federal de Pernambuco Tecnologia em Analise e Desenvolvimento de Sistemas pelo Prof. Marco Domingues. 
-Para uso dessa disciplina, usei o IDE Code::Blocks que achei mais apropriada em seu custo x benefício. Agora, mostrarei como realizar a instalação nas distribuições Linux mais usadas.
+﻿# Introdução à Programação
+Disciplina do Instituto Federal de Pernambuco Tecnologia em Analise e Desenvolvimento de Sistemas pelo Prof. Marco Domingues.
+
 
 ---
  * [**Instalação do IDE Code::Blocks no Ubuntu**](#ubuntu)
