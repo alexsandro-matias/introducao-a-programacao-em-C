@@ -28,8 +28,6 @@ int main()
     int num2;
     int *num2Ponteiro = &num2;
 
-
-
     printf("Digite a primeira variavel:");
     scanf("%d", &num1);
 
