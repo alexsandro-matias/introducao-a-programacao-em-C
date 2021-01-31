@@ -10,8 +10,8 @@ exiba o maior endereco.
 
 int main()
 {
-    int variavel1;
-    int variavel2;
+    int variavel1 = 10;
+    int variavel2 = 11;
 
 
 
