@@ -53,3 +53,6 @@ Para isso execute o comando:
 sudo dnf groupinstall "Development Tools" "Development Libraries"
 ```
 Obviamente, esse último comando será bem mais completo que o anterior.
+
+[Site do Professor](https://sites.google.com/a/a.recife.ifpe.edu.br/monitoriac/home)
+[Canal SempreUpdate](https://sempreupdate.com.br/como-instalar-o-codeblocks-no-fedora/)
