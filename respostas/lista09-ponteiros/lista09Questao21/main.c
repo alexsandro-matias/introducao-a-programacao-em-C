@@ -17,14 +17,19 @@ int main()
 
     int *vetorPonteiro = &vetor, i = 0;
 
-    for (i = 0 ; i < TAMANHO ; i++)
-    scanf("%d" , vetor[i]);
 
-    for (i = 0 ; i < TAMANHO ; i++)
-    *vetorPonteiro = vetor[i];
+    // Carregamento do vetor
+    for (int i = 0; i < TAMANHO; i++)
+    {
+        *(vetor+i) = i;
+    }
 
-    for (i = 0 ; i < TAMANHO ; i++)
-    printf("%d" , vetor[i]);
+    for (int i = 0 ; i < TAMANHO ; i++)
+    {
+        printf(" - %d - ", *(vetor + i));
+
+    }
+
 
     return 0;
 }
