@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1619035396 source:c:\users\almei\downloads\github\introducao-a-programacao\respostas\lista10-alocacao-dinamica\lista10questao01\main.c
+	<stdio.h>
+	<stdlib.h>
+
