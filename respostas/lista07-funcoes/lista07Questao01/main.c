@@ -19,11 +19,11 @@ int main()
 
     int numero;
     printf("Digite um número inteiro: ");
-    scanf("%d" , &numero);
+    scanf("%d", &numero);
 
     numero = dobro(numero);
 
-    printf("O dobro do número digitado é: %d" , numero);
+    printf("O dobro do número digitado é: %d", numero);
 
     return (EXIT_SUCCESS);
 }
