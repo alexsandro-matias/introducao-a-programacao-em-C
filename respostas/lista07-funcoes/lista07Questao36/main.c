@@ -10,10 +10,12 @@ N primeiros fatoriais de N. Assim, o superfatorial de 4 é sf(4) = 1! * 2! * 3! *
 
 */
 
-int superFatorial(int n){
-    int superFatorial = 1 ,  i;
-    for (i = 1; i <= n; i++ ){
-    superFatorial = superFatorial * i;
+int superFatorial(int n)
+{
+    int superFatorial = 1,  i;
+    for (i = 1; i <= n; i++ )
+    {
+        superFatorial = superFatorial * i;
     }
 
 
@@ -25,15 +27,18 @@ int superFatorial(int n){
 
 int main()
 {
-    int fatorialFinal = 1 , num , j;
+    int fatorialFinal = 1, num, j;
 
     printf("Digite um numero\n");
-    scanf("%d" , &num);
+    scanf("%d", &num);
 
     for(j = 1 ;  j <= num ; num-- )
-    fatorialFinal = superFatorial(num) * fatorialFinal;
+    {
+        fatorialFinal = superFatorial(num) * fatorialFinal;
 
-    printf("O Superfatorial do Numero eh %d" , fatorialFinal);
+    }
+
+    printf("O Superfatorial do Numero eh %d", fatorialFinal);
 
 
 
