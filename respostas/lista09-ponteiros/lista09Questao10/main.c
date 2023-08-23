@@ -14,20 +14,21 @@ leia esse array do teclado e imprima o dobro de cada valor lido.
 
 int main()
 {
-    int vetor[TAMANHO] , i;
+    int vetor[TAMANHO], i;
 
     for (i = 0 ; i < TAMANHO; i++ )
     {
-        printf("Digite o valor do %dº número: " , i+1);
-        scanf("%d" , &vetor[i]);
+        printf("Digite o valor do %dº número: ", i+1);
+        scanf("%d", &vetor[i]);
     }
+    printf("\n\n");
 
-    printf("O valor do vetor antes do dobro é: ");
+    printf("O valor original é: ");
 
 
     for (i = 0 ; i < TAMANHO; i++ )
     {
-        printf(" %d  " , vetor[i]);
+        printf(" %d  ", vetor[i]);
     }
 
 
@@ -37,7 +38,7 @@ int main()
 
 
 
-    for (i = 0 ; i < TAMANHO; i++ , *vetorPonteiro++)
+    for (i = 0 ; i < TAMANHO; i++, *vetorPonteiro++)
     {
         *vetorPonteiro *= 2;
 
@@ -50,11 +51,11 @@ int main()
 
     for (i = 0 ; i < TAMANHO; i++ )
     {
-        printf(" %d " , vetor[i]);
+        printf(" %d ", vetor[i]);
     }
 
 
-     printf("\n\n");
+    printf("\n\n");
 
 
 

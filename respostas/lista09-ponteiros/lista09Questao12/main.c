@@ -16,13 +16,16 @@ Exibir os valores ordenados na tela.
 int ordenacao(int *vetor)
 
 {
-    int i = 0 , j = 0 ,  aux;
+    int i = 0, j = 0,  aux;
 
 
     // Situação que todos os valores são iguais
 
     if (vetor[i] == vetor[i+1] && vetor[i] == vetor[i+2])
-    return 0;
+    {
+        return 0;
+
+    }
 
 
     // Situação que todos os valores são diferentes
@@ -61,12 +64,12 @@ int ordenacao(int *vetor)
 int main()
 {
 
-    int numeros[TAMANHO] , i  , retorno;
+    int numeros[TAMANHO], i, retorno;
 
-    for (i = 0 ; i < TAMANHO ;++i )
+    for (i = 0 ; i < TAMANHO ; ++i )
     {
-        printf("Digite o %dº número: " , i+1);
-        scanf("%d" , &numeros[i]);
+        printf("Digite o %dº número: ", i+1);
+        scanf("%d", &numeros[i]);
     }
 
     int *numerosPonteiro = numeros;
@@ -74,26 +77,21 @@ int main()
     retorno = ordenacao(numeros);
 
     if (retorno == 0)
-    printf("Todos os valores são iguais a %d\n" , numeros[2]);
+    {
+        printf("Todos os valores são iguais a %d\n", numeros[2]);
+    }
 
     if (retorno == 1)
     {
-    printf("Os três valores não todos iguais.\n");
+        printf("Os três valores não todos iguais.\n");
 
-    printf("Os valores ordenados são: \n");
+        printf("Os valores ordenados são: \n");
 
-      for (i = 0 ; i < TAMANHO ;i++)
-      printf(" %d " , numeros[i]);
+        for (i = 0 ; i < TAMANHO ; i++)
+            printf(" %d ", numeros[i]);
 
 
     }
-
-
-
-
-
-
-
 
     return 0;
 }
