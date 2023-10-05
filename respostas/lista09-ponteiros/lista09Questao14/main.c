@@ -16,6 +16,9 @@ array. A função deverá preencher os elementos de array com esse valor. N˜ao 
 
 int calculaTamanhoDeUmElemento(double *vetor)
 {
+	cout << "" << endl;
+
+
     return sizeof(*vetor);
 }
 
